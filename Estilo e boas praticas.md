@@ -34,6 +34,7 @@ Nosso projeto:
 
 ## 2.4 Segurança
 Envolve a aplicação de medidas de segurança em todas as fases do ciclo de vida do desenvolvimento de software, desde a concepção até a manutenção, para prevenir, detectar e corrigir falhas de segurança.
+Nosso projeto:
 - Realiza testes de penetração e análise de vulnerabilidades regularmente para identificar e corrigir potenciais falhas de segurança em sua API.
 - Implementa um manejo de erros consistente que não revela detalhes internos da implementação ou informações sensíveis.
 - Segue práticas recomendadas de codificação segura, como validação de entrada, sanitização de dados (remove ou neutraliza qualquer dado que possa ser perigoso ou malicioso) e uso de APIs seguras.
@@ -47,9 +48,9 @@ Nosso projeto:
 - Utiliza JUnit para aitomatizar testes
 
 ## 2.6 Consistência
-### Consistência de código: Refere-se à uniformidade na forma como o código é escrito e organizado.Como convenções de nomenclatura, padrões de codificação e estilos de formatação. Ferramentas como linters e formatadores de código podem ajudar a aplicar e manter essa consistência automaticamente.
-### Consistência de Dados: No desenvolvimento de software, especialmente em aplicações que interagem com bancos de dados ou outras fontes de dados, a consistência de dados é crucial. Isso significa garantir que os dados estejam corretos, atualizados e sincronizados em diferentes partes da aplicação e entre diferentes sistemas.
-### Consistência de Design: Refere-se à aplicação coerente de padrões de design de software em todo o projeto. Em Java, isso pode incluir a aplicação de padrões de projeto estruturais, comportamentais e criacionais.
+#### Consistência de código: Refere-se à uniformidade na forma como o código é escrito e organizado.Como convenções de nomenclatura, padrões de codificação e estilos de formatação. Ferramentas como linters e formatadores de código podem ajudar a aplicar e manter essa consistência automaticamente.
+#### Consistência de Dados: No desenvolvimento de software, especialmente em aplicações que interagem com bancos de dados ou outras fontes de dados, a consistência de dados é crucial. Isso significa garantir que os dados estejam corretos, atualizados e sincronizados em diferentes partes da aplicação e entre diferentes sistemas.
+#### Consistência de Design: Refere-se à aplicação coerente de padrões de design de software em todo o projeto. Em Java, isso pode incluir a aplicação de padrões de projeto estruturais, comportamentais e criacionais.
 Nosso projeto:
 - Padrões de codificação é estilo;
 - Documentação;
