@@ -11,9 +11,9 @@ Tais práticas não apenas ajudam a prevenir erros, mas também facilitam a cola
 ## 2.1 Legibilidade:
 Consiste em ter nomes expressivos, que, por exemplo, mostram com clareza o que uma variável armazena. Ou métodos com nomes de fácil compreenção.
 Nosso projeto, neste aspecto, utiliza o padrão Carmel Case que consiste em: 
-- Iniciar nomes de classes e interfaces com letra maiúscula;
-- Iniciar nomes de variáveis e métodos com letras minúsculas e, se for um nome composto, iniciar a segunda palavra com letra minúscula sem dar espaço;
-- Constantes se escrevem com todas letras maiúsculas e palavras separadas po underline (_). 
+- Inicia nomes de classes e interfaces com letra maiúscula;
+- Inicia nomes de variáveis e métodos com letras minúsculas e, se for um nome composto, iniciar a segunda palavra com letra minúscula sem dar espaço;
+- Escreve constantes com todas letras maiúsculas e palavras separadas po underline (_). 
 
 ## 2.2 Manutenibilidade:
 É, basicamente, uma medida de quão fácil é manter e evoluir um sistema de software ao longo do tempo.
@@ -52,8 +52,8 @@ Nosso projeto:
 #### Consistência de Dados: No desenvolvimento de software, especialmente em aplicações que interagem com bancos de dados ou outras fontes de dados, a consistência de dados é crucial. Isso significa garantir que os dados estejam corretos, atualizados e sincronizados em diferentes partes da aplicação e entre diferentes sistemas.
 #### Consistência de Design: Refere-se à aplicação coerente de padrões de design de software em todo o projeto. Em Java, isso pode incluir a aplicação de padrões de projeto estruturais, comportamentais e criacionais.
 Nosso projeto:
-- Padrões de codificação é estilo;
-- Documentação;
-- Arquitetura e design;
-- Testes;
-- Gerenciamento de versões.
+- Utiliza padrões de codificação é estilo;
+- Possui documentação;
+- Tem arquitetura e design;
+- Realiza testes;
+- Possui gerenciamento de versões.
