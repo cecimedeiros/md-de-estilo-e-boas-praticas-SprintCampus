@@ -2,8 +2,8 @@
 
 # Orientações sobre estilo e boas práticas de codificação Java
 ### Este documento destina-se a estabelecer um conjunto de padrões de estilo e boas práticas de codificação em Java, visando promover a qualidade, a manutenção e a escalabilidade em projetos de engenharia de software. O cumprimento destas diretrizes ajudará a equipe a desenvolver um código consistente, legível e eficiente.
-
-
+&nbsp;
+&nbsp;
 
 # 1. Entendendo estilo e boas práticas
 ## 1.1 O que são?
