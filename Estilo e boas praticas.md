@@ -4,10 +4,11 @@
 
 # 1. Entendendo estilo e boas práticas
 ## 1.1 O que são?
-São um conjunto de diretrizes e convenções que os programadores seguem para tornar seus códigos mais legíveis, manuteníveis e eficientes.
+Quando falamos sobre estilo e boas práticas no mundo da programação, estamos basicamente conversando sobre aquelas regras não escritas (bom, algumas são escritas) que fazem toda a diferença em pedaços de código.
+Essas diretrizes e convenções são a bússola que os programadores seguem para garantir que seus códigos não sejam apenas um monte de palavras e números jogados de qualquer jeito. Elas ajudam a tornar o código mais limpo, como um texto bem formatado que é fácil de ler e entender.
 
 ## 1.2 Para que servem?
-Tais práticas não apenas ajudam a prevenir erros, mas também facilitam a colaboração entre desenvolvedores ao padronizar a maneira como o código é escrito.
+Adotar boas práticas de codificação e um estilo consistente não é apenas uma questão de cortesia profissional, é essencial para manter o código compreensível não só para a atual equipe de desenvolvimento mas também para aqueles que venham a ser integrados posteriormente no projeto, além de permitir que todos possam e consigam achar o que procuram no código.
 
 &nbsp;
 # 2. Aspectos:
