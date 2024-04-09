@@ -22,6 +22,23 @@ Nosso projeto, neste aspecto, utiliza os padrões citados acima:
 - UPPER_SNAKE_CASE: para constantes.
 
 ## 2.2 Estrutura e formatação:
+É a maneira como o código é organizado e apresentado visualmente. Esses é um elemento que influencia diretamente a legibilidade do código.
+Juntos, a estrutura e a formatação do código desempenham um papel crucial na manutenção da qualidade do software. Códigos bem estruturados e formatados não são apenas mais agradáveis de ler e trabalhar, mas também facilitam a detecção de erros, a revisão de código por pares e a incorporação de novos desenvolvedores ao projeto.
+
+### 2.2.1 Estrutura:
+Diz respeito à sua organização lógica e arquitetônica. Isso inclui a maneira como as classes, funções, módulos e outros componentes são organizados, bem como a relação entre eles.
+Alguns elementos estruturais são:
+- Modularização: Dividir o código em módulos ou componentes com responsabilidades claras e bem definidas.
+- Hierarquia e Herança: Organizar classes e objetos de maneira hierárquica para promover a reutilização de código.
+- Padrões de Projeto: Aplicar padrões de projeto reconhecidos para resolver problemas comuns de design de software de maneira eficaz.
+
+### 2.2.2 Formatação:
+Trata da apresentação visual do código, incluindo aspectos como indentação, uso de espaços e linhas em branco, e convenções de nomenclatura. Embora possa parecer trivial à primeira vista, a formatação consistente e intuitiva torna o código mais acessível e fácil de ler.
+Alguns elementos da formatação são:
+- Indentação: Usar espaços ou tabs para criar uma hierarquia visual, facilitando a identificação de blocos de código, como corpos de funções, loops e condicionais.
+- Espaçamento: Utilizar espaços em branco adequadamente, como entre operadores e operandos, para tornar o código mais claro.
+- Linhas em Branco: Inserir linhas em branco entre declarações ou blocos de código para separar visualmente componentes lógicos distintos.
+- Convenções de Nomenclatura: Seguir um conjunto consistente de regras para a nomenclatura de variáveis, funções, classes e outros identificadores, como camelCase ou snake_case.
 
 ## 2.3 Manutenibilidade:
 É, basicamente, uma medida de quão fácil é manter e evoluir um sistema de software ao longo do tempo.
