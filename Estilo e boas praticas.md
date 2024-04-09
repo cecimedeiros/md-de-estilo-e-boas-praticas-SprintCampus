@@ -10,9 +10,8 @@ São um conjunto de diretrizes e convenções que os programadores seguem para t
 
 ## 1.2 Para que servem?
 Tais práticas não apenas ajudam a prevenir erros, mas também facilitam a colaboração entre desenvolvedores ao padronizar a maneira como o código é escrito.
-&nbsp;
-&nbsp;
 
+&nbsp;
 # 2. Aspectos:
 ## 2.1 Legibilidade:
 Consiste em ter nomes expressivos, que, por exemplo, mostram com clareza o que uma variável armazena. Ou métodos com nomes de fácil compreenção.
