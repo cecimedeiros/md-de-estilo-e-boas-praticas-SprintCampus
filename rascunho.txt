@@ -1,18 +1,3 @@
-Estilo e Boas Práticas de Codificação em Java para Projetos de Engenharia de Software
-
-Introdução
-Este documento destina-se a estabelecer um conjunto de padrões de estilo e boas práticas de codificação em Java, visando promover a qualidade, a manutenção e a escalabilidade em projetos de engenharia de software. O cumprimento destas diretrizes ajudará a equipe a desenvolver um código consistente, legível e eficiente.
-
-Nomenclatura e Convenções de Código
-Classes e Interfaces: Nomeie usando PascalCase e prefira nomes que refletem claramente sua funcionalidade (ex.: PaymentProcessor, UserInterface).
-Métodos: Use camelCase, iniciando com um verbo, para indicar a ação realizada (ex.: calculateInterest, retrieveOrders).
-Variáveis: Mantenha a consistência com camelCase, escolhendo nomes que claramente indicam seu propósito (ex.: invoiceAmount, customerList).
-Constantes: Defina usando UPPER_SNAKE_CASE, e escolha nomes que representem seu valor de forma explícita (ex.: MAX_RETRY_ATTEMPTS, DEFAULT_USER_ROLE).
-
-Estrutura e Formatação
-Indentação: Utilize 4 espaços por nível de indentação para manter a uniformidade do código em diferentes ambientes de desenvolvimento.
-Chaves: Posicione a chave de abertura na mesma linha do comando (ex.: métodos, instruções if/else, loops), e a chave de fechamento em uma nova linha.
-Linhas e Espaçamento: Evite linhas com mais de 100 caracteres, para melhorar a legibilidade. Utilize espaços em branco ao redor dos operadores e depois das vírgulas.
 
 Princípios de Programação
 DRY (Don't Repeat Yourself): Evite a duplicação de código. Promova a reutilização através de métodos e classes.
