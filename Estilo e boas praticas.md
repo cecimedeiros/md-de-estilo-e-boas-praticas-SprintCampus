@@ -56,7 +56,7 @@ Originário da programação extrema (XP), esse princípio aconselha os desenvol
 ### 2.3.4 Encapsulamento
 Encapsulamento é a prática de ocultar os detalhes internos do funcionamento de uma classe e expor apenas o necessário para o mundo exterior. Isso protege os dados internos da classe e é fundamental para a abstração.
 
-### Separation of Concerns (Separação de Preocupações)
+### 2.3.5 Separation of Concerns (Separação de Preocupações)
 Este princípio defende que um software deve ser dividido em seções distintas, onde cada seção aborda uma preocupação específica. Isso facilita a manutenção e a atualização do software, além de tornar o código mais fácil de entender.
 
 ## 2.3 Manutenibilidade:
