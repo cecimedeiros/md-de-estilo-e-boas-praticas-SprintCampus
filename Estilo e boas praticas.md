@@ -40,6 +40,25 @@ Alguns elementos da formatação são:
 - Linhas em Branco: Inserir linhas em branco entre declarações ou blocos de código para separar visualmente componentes lógicos distintos.
 - Convenções de Nomenclatura: Seguir um conjunto consistente de regras para a nomenclatura de variáveis, funções, classes e outros identificadores, como camelCase ou snake_case.
 
+## 2.3 Princípios de Programação:
+São diretrizes fundamentais que orientam os desenvolvedores na criação de software.
+Eles servem como um conjunto de melhores práticas acumuladas ao longo dos anos pela comunidade de desenvolvimento de software. Adotar esses princípios pode levar a um código de maior qualidade e a projetos de software mais bem-sucedidos. 
+
+### 2.3.1 DRY (Don't Repeat Yourself)
+Este princípio enfatiza a importância de evitar a repetição de código. A ideia é que cada peça de informação deve ter uma representação única, não ambígua e definitiva dentro do sistema. Seguir o princípio DRY pode reduzir a quantidade de código redundante, facilitando a manutenção e a atualização do software.
+
+### 2.3.2 KISS (Keep It Simple, Stupid)
+O princípio KISS sugere que a simplicidade deve ser uma meta-chave no design de software, e que se deve evitar a complexidade desnecessária. Isso não significa que todo software deve ser simples, mas que os desenvolvedores devem procurar a solução mais simples que resolva o problema efetivamente.
+
+### 2.3.3 YAGNI (You Ain't Gonna Need It)
+Originário da programação extrema (XP), esse princípio aconselha os desenvolvedores a não adicionar funcionalidades até que elas sejam realmente necessárias. Isso evita gastar tempo e recursos em partes do software que podem nunca ser usadas ou que adicionam complexidade desnecessária ao projeto.
+
+### 2.3.4 Encapsulamento
+Encapsulamento é a prática de ocultar os detalhes internos do funcionamento de uma classe e expor apenas o necessário para o mundo exterior. Isso protege os dados internos da classe e é fundamental para a abstração.
+
+### Separation of Concerns (Separação de Preocupações)
+Este princípio defende que um software deve ser dividido em seções distintas, onde cada seção aborda uma preocupação específica. Isso facilita a manutenção e a atualização do software, além de tornar o código mais fácil de entender.
+
 ## 2.3 Manutenibilidade:
 É, basicamente, uma medida de quão fácil é manter e evoluir um sistema de software ao longo do tempo.
 
