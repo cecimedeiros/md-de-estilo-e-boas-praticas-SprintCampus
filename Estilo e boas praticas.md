@@ -109,6 +109,7 @@ Verificar a identidade dos usuários antes de conceder acesso ao sistema e garan
 ### 2.6.1.5 Não Repúdio
 Garantir que ações realizadas no sistema possam ser atribuídas a um usuário específico de forma incontestável, o que é importante para transações legais e auditorias.
 
+&nbsp;
 ### 2.6.2 Estratégias para garantir a segurança:
 ### 2.6.2.1 Desenvolvimento Seguro
 Integrar considerações de segurança em todas as fases do ciclo de vida do desenvolvimento de software, desde a concepção até a manutenção, seguindo práticas como a programação defensiva.
@@ -145,6 +146,7 @@ A capacidade de observar as saídas de um sistema em resposta a entradas definid
 ### 2.7.1.5 Ferramentas de suporte ao teste
 A disponibilidade de ferramentas que podem automatizar a execução de testes, gerenciar casos de teste e simular condições de operação do sistema pode aumentar significativamente a testabilidade.
 
+&nbsp;
 ### 2.7.2 Benefícios da Alta Testabilidade
 ### 2.7.2.1 Detecção Precoce de Defeitos 
 Sistemas com alta testabilidade permitem a identificação e correção de defeitos no início do ciclo de desenvolvimento, reduzindo os custos de correção.
@@ -178,6 +180,7 @@ Manter um estilo e formato consistentes na documentação técnica, incluindo co
 ### 2.8.1.5 Consistência em testes
 Aplicar uma abordagem consistente para a criação de testes e critérios de aceitação garante que todos os componentes do sistema sejam verificados de forma abrangente e uniforme, aumentando a confiabilidade do software.
 
+&nbsp;
 ### 2.8.2 Benefícios da consistência:
 ### 2.8.2.1 Melhora a colaboração
 A consistência facilita a colaboração entre os membros da equipe, pois todos seguem as mesmas diretrizes e padrões.
