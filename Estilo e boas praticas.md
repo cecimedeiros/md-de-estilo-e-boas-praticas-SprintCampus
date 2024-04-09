@@ -159,18 +159,37 @@ Software que é fácil de testar tende a ser mais fácil de manter, já que modi
 Projetos com alta testabilidade podem se adaptar mais rapidamente a mudanças nos requisitos, pois as implicações de tais mudanças podem ser validadas de forma eficiente através de testes.
 
 ## 2.8 Consistência
-Consistência de código: Refere-se à uniformidade na forma como o código é escrito e organizado.Como convenções de nomenclatura, padrões de codificação e estilos de formatação. Ferramentas como linters e formatadores de código podem ajudar a aplicar e manter essa consistência automaticamente.
+Refere-se à uniformidade na aplicação de princípios de design, padrões de codificação, convenções de nomenclatura, interfaces de usuário e outras práticas de desenvolvimento em todo o projeto ou sistema.
+A consistência é crucial para garantir que o software seja intuitivo, manutenível e escalável. Ela afeta vários aspectos do desenvolvimento de software e da experiência do usuário final.
 
-Consistência de Dados: No desenvolvimento de software, especialmente em aplicações que interagem com bancos de dados ou outras fontes de dados, a consistência de dados é crucial. Isso significa garantir que os dados estejam corretos, atualizados e sincronizados em diferentes partes da aplicação e entre diferentes sistemas.
+### 2.8.1 Aplicações da consistência:
+### 2.8.1.1 Consistência no design de interface
+Refere-se à uniformidade na aparência e no comportamento das interfaces de usuário. Isso inclui o uso consistente de cores, tipografia, elementos gráficos, terminologia e mecanismos de interação. A consistência na interface do usuário ajuda os usuários a aprender e a se adaptar ao software mais rapidamente, melhorando a experiência do usuário.
 
-Consistência de Design: Refere-se à aplicação coerente de padrões de design de software em todo o projeto. Em Java, isso pode incluir a aplicação de padrões de projeto estruturais, comportamentais e criacionais.
+### 2.8.1.2 Consistência no código
+Envolve seguir padrões de codificação uniformes, convenções de nomenclatura e estilos de formatação em todo o código fonte. Isso facilita a leitura, compreensão e manutenção do código por diferentes desenvolvedores, além de ajudar a prevenir erros.
 
-Nosso projeto:
-- Utiliza padrões de codificação é estilo;
-- Possui documentação;
-- Tem arquitetura e design;
-- Realiza testes;
-- Possui gerenciamento de versões.
+### 2.8.1.3 Consistência em padrões de design
+A aplicação consistente de padrões de design em todo o projeto ajuda a resolver problemas comuns de maneira uniforme. Isso não apenas melhora a qualidade do design do software, mas também facilita a comunicação entre os membros da equipe, já que todos têm um entendimento comum das soluções implementadas.
+
+### 2.8.1.4 Consistência na documentação
+Manter um estilo e formato consistentes na documentação técnica, incluindo comentários no código, manuais de usuário e documentos de especificação, facilita a compreensão e a utilização das informações fornecidas.
+
+### 2.8.1.5 Consistência em testes
+Aplicar uma abordagem consistente para a criação de testes e critérios de aceitação garante que todos os componentes do sistema sejam verificados de forma abrangente e uniforme, aumentando a confiabilidade do software.
+
+### 2.8.2 Benefícios da consistência:
+### 2.8.2.1 Melhora a colaboração
+A consistência facilita a colaboração entre os membros da equipe, pois todos seguem as mesmas diretrizes e padrões.
+
+### 2.8.2.2 Aumenta a eficiência 
+Reduz o tempo necessário para entender diferentes partes do sistema, permitindo que os desenvolvedores e designers se concentrem em solucionar problemas em vez de decifrar estilos inconsistentes.
+
+### 2.8.2.3 Facilita a manutenção 
+Software consistente é mais fácil de manter e atualizar, pois as alterações em um componente podem ser aplicadas de maneira previsível a outros componentes similares.
+
+### 2.8.2.4 Melhora a qualidade do produto
+Ao garantir que o software seja desenvolvido de maneira uniforme e de acordo com as melhores práticas, a consistência contribui para a qualidade geral e a estabilidade do produto.
 
 &nbsp;
 ### Adotar estas práticas não apenas melhorará a qualidade do software desenvolvido, mas também facilitará a colaboração dentro da equipe de desenvolvimento. É crucial que todos os membros da equipe estejam comprometidos em seguir estas diretrizes para alcançar os objetivos do projeto com eficiência e eficácia.
