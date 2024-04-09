@@ -71,4 +71,6 @@ Nosso projeto:
 - Realiza testes;
 - Possui gerenciamento de versões.
 
+### Adotar estas práticas não apenas melhorará a qualidade do software desenvolvido, mas também facilitará a colaboração dentro da equipe de desenvolvimento. É crucial que todos os membros da equipe estejam comprometidos em seguir estas diretrizes para alcançar os objetivos do projeto com eficiência e eficácia.
+
 </div>
