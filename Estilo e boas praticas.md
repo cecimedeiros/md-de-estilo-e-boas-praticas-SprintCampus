@@ -49,11 +49,11 @@ Nosso projeto:
 Identificar a presença de segurança em um código de projeto é um processo constante que necessita de vigilância e adaptação as novas ameaças. Integrar a segurança desde o início do desenvolvimento e mantê-la como uma preocupação constante ao longo do ciclo de vida do projeto para criar um código seguro.
 
 ## 2.5 Testabilidade
-É a capacidade de um sistema ou componente de software ser facilmente testado. Isso significa que o design do software suporta a execução de testes para validar sua funcionalidade, ele suporta ser testado.
+Quando falamos sobre testabilidade no mundo do desenvolvimento de software, estamos basicamente nos referindo à quão amigável nosso sistema ou componente é para ser testado e o nosso design facilita a realização de testes que validam se tudo está funcionando como deveria. A testabilidade é influenciada por um monte de coisas – desde a clareza com que definimos o que queremos que nosso software faça, até como organizamos seu código em módulos que podem ser facilmente examinados individualmente.
 
-Nosso projeto:
-- Faz testes unitários;
-- Utiliza JUnit para aitomatizar testes
+No nosso projeto, levamos a testabilidade a sério desde o início. Não a vemos apenas como uma caixa que precisa ser marcada, mas como uma parte vital da criação de um software realmente robusto e confiável. Aqui está o que fazemos para garantir que nosso software seja tão testável quanto possível:
+- Testes Unitários: cada unidade de código recebe atenção individual para garantir que está em forma e funcionando como deveria. 
+- JUnit para Automatizar Testes: o JUnit é basicamente o assistente dos testes unitários. Ele ajuda a automatizar esses testes, o que significa que podemos rodá-los rapidamente e com frequência, sem ter que fazer tudo manualmente.
 
 ## 2.6 Consistência
 Consistência de código: Refere-se à uniformidade na forma como o código é escrito e organizado.Como convenções de nomenclatura, padrões de codificação e estilos de formatação. Ferramentas como linters e formatadores de código podem ajudar a aplicar e manter essa consistência automaticamente.
