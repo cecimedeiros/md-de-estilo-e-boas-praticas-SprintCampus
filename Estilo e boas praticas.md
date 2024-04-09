@@ -44,6 +44,7 @@ Alguns elementos da formatação são:
 São diretrizes fundamentais que orientam os desenvolvedores na criação de software.
 Eles servem como um conjunto de melhores práticas acumuladas ao longo dos anos pela comunidade de desenvolvimento de software. Adotar esses princípios pode levar a um código de maior qualidade e a projetos de software mais bem-sucedidos. 
 
+### Alguns princípios famosos:
 ### 2.3.1 DRY (Don't Repeat Yourself)
 Este princípio enfatiza a importância de evitar a repetição de código. A ideia é que cada peça de informação deve ter uma representação única, não ambígua e definitiva dentro do sistema. Seguir o princípio DRY pode reduzir a quantidade de código redundante, facilitando a manutenção e a atualização do software.
 
@@ -60,40 +61,102 @@ Encapsulamento é a prática de ocultar os detalhes internos do funcionamento de
 Este princípio defende que um software deve ser dividido em seções distintas, onde cada seção aborda uma preocupação específica. Isso facilita a manutenção e a atualização do software, além de tornar o código mais fácil de entender.
 
 ## 2.4 Manutenibilidade:
-É, basicamente, uma medida de quão fácil é manter e evoluir um sistema de software ao longo do tempo.
+É, basicamente, a medida de quão fácil é manter, modificar, corrigir, ou estender um sistema ou aplicação ao longo do tempo, um software com alta manutenibilidade é aquele que pode ser atualizado ou adaptado com esforço mínimo.
+A essa dedicação à manutenibilidade garante que nosso projeto possa suportar mudanças, melhorias e atualizações, e, assim, evoluir com o passar do tempo.
 
-Nosso projeto:
-- Está limpo e legível; 
-- Contém documentação;
-- Segue o padrão de design OO;
-- Usa Git para versionamento;
-- Utiliza testes (JUnit).
+A manutenibilidade depende de fatores como:
+- Legibilidade do código.
+- Modularidade: A capacidade de o software ser dividido em componentes ou módulos independentes que podem ser atualizados, substituídos ou reutilizados sem afetar o restante do sistema.
+- Testabilidade.
+- Documentação.
+- Padrões e convenções de codificação.
+- Uso de tecnologias e ferramentas estáveis:
 
 ## 2.5 Eficiência
-Trata-se de diretrizes e principios que otimizam o algoritmo.
+É a medida de quão efetivamente um sistema de software utiliza os recursos disponíveis, como tempo de processamento, memória, e capacidade de armazenamento, para realizar as suas tarefas. A eficiência está profundamente entrelaçada com o desempenho do software e é um critério crucial na avaliação da qualidade do sistema. 
 
-Nosso projeto:
-- Otimiza consultas do banco de dados;
-- Evita a criação desnecessária de objetos;
-- Evita loops desnecessários;
-- Usa a arquitetura API REST.
+### Divisões da eficiência:
+### 2.5.1 Eficiência de Espaço
+Trata da quantidade de recursos de hardware que o software utiliza durante sua execução. Um programa eficiente em termos de espaço utiliza a memória de forma otimizada, evitando desperdício, e ocupa o mínimo de espaço de armazenamento necessário.
+
+### 2.5.2 Eficiência de Tempo
+Refere-se à velocidade com que um programa executa suas operações. Um software eficiente em termos de tempo realiza suas tarefas rapidamente, minimizando a espera do usuário ou o consumo de processamento. Isso é particularmente crítico em sistemas que requerem resposta em tempo real ou que processam grandes volumes de dados.
+
+A eficiência pode ser alcançada das seguintes formas: 
+- Escolha de algoritmos apropriados.
+- Otimização de código.
+- Gerenciamento de recursos.
+- Design modular.
+- Testes e Monitoramento.
 
 ## 2.6 Segurança
-Envolve a aplicação de medidas de segurança em todas as fases do ciclo de vida do desenvolvimento de software, desde a concepção até a manutenção, para prevenir, detectar e corrigir falhas de segurança.
+Refere-se às medidas e práticas adotadas para proteger um sistema de software contra acessos não autorizados, alterações, roubo, ou destruição de informações, bem como proteção contra ataques que possam comprometer a disponibilidade, integridade e confidencialidade dos dados e dos recursos do sistema.
+A importância da segurança em sistemas de software não pode ser subestimada, dada a crescente dependência da sociedade em tecnologia digital e a prevalência de ameaças cibernéticas. Uma falha de segurança pode resultar em perdas financeiras significativas, danos à reputação, perda de confiança do usuário, e em casos extremos, riscos à segurança física dos envolvidos.
 
-Nosso projeto:
-- Realiza testes de penetração e análise de vulnerabilidades regularmente para identificar e corrigir potenciais falhas de segurança em sua API.
-- Implementa um manejo de erros consistente que não revela detalhes internos da implementação ou informações sensíveis.
-- Segue práticas recomendadas de codificação segura, como validação de entrada, sanitização de dados (remove ou neutraliza qualquer dado que possa ser perigoso ou malicioso) e uso de APIs seguras.
+### 2.6.1 Aspectos da segurança:
+### 2.6.1.1 Confidencialidade
+Garantir que a informação é acessível apenas por aqueles devidamente autorizados. Isso envolve a proteção de dados sensíveis contra interceptação ou visualização por partes não autorizadas.
 
-Identificar a presença de segurança em um código de projeto é um processo constante que necessita de vigilância e adaptação as novas ameaças. Integrar a segurança desde o início do desenvolvimento e mantê-la como uma preocupação constante ao longo do ciclo de vida do projeto para criar um código seguro.
+### 2.6.1.2 Integridade
+Proteger os dados e o código contra alterações não autorizadas.
+
+### 2.6.1.3 Disponibilidade
+Assegurar que os sistemas de software e os dados estejam disponíveis quando necessário pelos usuários autorizados. Isso envolve proteger o sistema contra ataques que visam interromper o serviço, como ataques de negação de serviço (DoS).
+
+### 2.6.1.4 Autenticação e Autorização
+Verificar a identidade dos usuários antes de conceder acesso ao sistema e garantir que eles tenham permissão apenas para as operações e dados apropriados para seus papéis.
+
+### 2.6.1.5 Não Repúdio
+Garantir que ações realizadas no sistema possam ser atribuídas a um usuário específico de forma incontestável, o que é importante para transações legais e auditorias.
+
+### 2.6.2 Estratégias para garantir a segurança:
+### 2.6.2.1 Desenvolvimento Seguro
+Integrar considerações de segurança em todas as fases do ciclo de vida do desenvolvimento de software, desde a concepção até a manutenção, seguindo práticas como a programação defensiva.
+
+### 2.6.2.2 Criptografia
+Utilizar criptografia para proteger dados sensíveis em trânsito e em repouso, garantindo que, mesmo se interceptados, os dados não possam ser lidos ou utilizados por atacantes.
+
+### 2.6.2.3 Testes de segurança 
+Realizar testes regulares de segurança, incluindo testes de penetração e análises de vulnerabilidade, para identificar e corrigir falhas de segurança antes que possam ser exploradas.
+
+### 2.6.2.4 Gestão de patch e atualizações 
+Manter o software atualizado, aplicando patches e atualizações de segurança de forma oportuna para corrigir vulnerabilidades conhecidas.
+
+### 2.6.2.5 Educação e Conscientização
+Promover a conscientização sobre segurança entre os desenvolvedores, operadores e usuários do sistema, enfatizando a importância de práticas seguras.
 
 ## 2.7 Testabilidade
-Quando falamos sobre testabilidade no mundo do desenvolvimento de software, estamos basicamente nos referindo à quão amigável nosso sistema ou componente é para ser testado e o nosso design facilita a realização de testes que validam se tudo está funcionando como deveria. A testabilidade é influenciada por um monte de coisas – desde a clareza com que definimos o que queremos que nosso software faça, até como organizamos seu código em módulos que podem ser facilmente examinados individualmente.
+É, em resumo, a medida que define quão facilmente um sistema de software pode ser submetido a testes para validar sua funcionalidade, performance e conformidade com os requisitos especificados. Em outras palavras, a testabilidade refere-se à capacidade de um sistema ser testado de forma eficaz e eficiente
+Essa qualidade é crucial, pois influencia diretamente a extensão e a facilidade com que os desenvolvedores e testadores podem identificar defeitos, realizar diagnósticos de falhas e validar as características do sistema antes de sua entrega.
 
-No nosso projeto, levamos a testabilidade a sério desde o início. Não a vemos apenas como uma caixa que precisa ser marcada, mas como uma parte vital da criação de um software realmente robusto e confiável. Aqui está o que fazemos para garantir que nosso software seja tão testável quanto possível:
-- Testes Unitários: cada unidade de código recebe atenção individual para garantir que está em forma e funcionando como deveria. 
-- JUnit para Automatizar Testes: o JUnit é basicamente o assistente dos testes unitários. Ele ajuda a automatizar esses testes, o que significa que podemos rodá-los rapidamente e com frequência, sem ter que fazer tudo manualmente.
+### 2.7.1 Fatores que influenciam a testabilidade
+### 2.7.1.1 Design modular 
+Sistemas projetados com uma arquitetura modular, onde as funções estão claramente separadas e são independentes umas das outras, são mais fáceis de testar. Isso permite que testes sejam realizados isoladamente em componentes específicos sem interferência de outras partes do sistema.
+
+### 2.7.1.2 Documentação clara
+A presença de documentação detalhada, incluindo especificações de requisitos e descrições de design, facilita a criação de casos de teste que cobrem todos os aspectos esperados do software.
+
+### 2.7.1.3 Interfaces definidas
+Sistemas com interfaces bem definidas entre seus componentes permitem testes de integração mais simples, pois cada interface pode ser testada de forma independente.
+
+### 2.7.1.4 Possibilidade de observação e controle
+A capacidade de observar as saídas de um sistema em resposta a entradas definidas e controlar as condições sob as quais os testes são executados também é crucial para a testabilidade.
+
+### 2.7.1.5 Ferramentas de suporte ao teste
+A disponibilidade de ferramentas que podem automatizar a execução de testes, gerenciar casos de teste e simular condições de operação do sistema pode aumentar significativamente a testabilidade.
+
+### 2.7.2 Benefícios da Alta Testabilidade
+### 2.7.2.1 Detecção Precoce de Defeitos 
+Sistemas com alta testabilidade permitem a identificação e correção de defeitos no início do ciclo de desenvolvimento, reduzindo os custos de correção.
+
+### 2.7.2.2 Qualidade e confiabilidade
+A capacidade de testar o software de forma abrangente antes da entrega contribui para a qualidade geral do produto e para a satisfação do usuário final.
+
+### 2.7.2.3 Facilitação da manutenção
+Software que é fácil de testar tende a ser mais fácil de manter, já que modificações podem ser validadas rapidamente através de testes.
+
+### 2.7.2.4 Agilidade no desenvolvimento 
+Projetos com alta testabilidade podem se adaptar mais rapidamente a mudanças nos requisitos, pois as implicações de tais mudanças podem ser validadas de forma eficiente através de testes.
 
 ## 2.8 Consistência
 Consistência de código: Refere-se à uniformidade na forma como o código é escrito e organizado.Como convenções de nomenclatura, padrões de codificação e estilos de formatação. Ferramentas como linters e formatadores de código podem ajudar a aplicar e manter essa consistência automaticamente.
