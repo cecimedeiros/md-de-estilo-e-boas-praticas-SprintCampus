@@ -59,7 +59,7 @@ Encapsulamento é a prática de ocultar os detalhes internos do funcionamento de
 ### 2.3.5 Separation of Concerns (Separação de Preocupações)
 Este princípio defende que um software deve ser dividido em seções distintas, onde cada seção aborda uma preocupação específica. Isso facilita a manutenção e a atualização do software, além de tornar o código mais fácil de entender.
 
-## 2.3 Manutenibilidade:
+## 2.4 Manutenibilidade:
 É, basicamente, uma medida de quão fácil é manter e evoluir um sistema de software ao longo do tempo.
 
 Nosso projeto:
@@ -69,7 +69,7 @@ Nosso projeto:
 - Usa Git para versionamento;
 - Utiliza testes (JUnit).
 
-## 2.4 Eficiência
+## 2.5 Eficiência
 Trata-se de diretrizes e principios que otimizam o algoritmo.
 
 Nosso projeto:
@@ -78,7 +78,7 @@ Nosso projeto:
 - Evita loops desnecessários;
 - Usa a arquitetura API REST.
 
-## 2.5 Segurança
+## 2.6 Segurança
 Envolve a aplicação de medidas de segurança em todas as fases do ciclo de vida do desenvolvimento de software, desde a concepção até a manutenção, para prevenir, detectar e corrigir falhas de segurança.
 
 Nosso projeto:
@@ -88,14 +88,14 @@ Nosso projeto:
 
 Identificar a presença de segurança em um código de projeto é um processo constante que necessita de vigilância e adaptação as novas ameaças. Integrar a segurança desde o início do desenvolvimento e mantê-la como uma preocupação constante ao longo do ciclo de vida do projeto para criar um código seguro.
 
-## 2.6 Testabilidade
+## 2.7 Testabilidade
 Quando falamos sobre testabilidade no mundo do desenvolvimento de software, estamos basicamente nos referindo à quão amigável nosso sistema ou componente é para ser testado e o nosso design facilita a realização de testes que validam se tudo está funcionando como deveria. A testabilidade é influenciada por um monte de coisas – desde a clareza com que definimos o que queremos que nosso software faça, até como organizamos seu código em módulos que podem ser facilmente examinados individualmente.
 
 No nosso projeto, levamos a testabilidade a sério desde o início. Não a vemos apenas como uma caixa que precisa ser marcada, mas como uma parte vital da criação de um software realmente robusto e confiável. Aqui está o que fazemos para garantir que nosso software seja tão testável quanto possível:
 - Testes Unitários: cada unidade de código recebe atenção individual para garantir que está em forma e funcionando como deveria. 
 - JUnit para Automatizar Testes: o JUnit é basicamente o assistente dos testes unitários. Ele ajuda a automatizar esses testes, o que significa que podemos rodá-los rapidamente e com frequência, sem ter que fazer tudo manualmente.
 
-## 2.7 Consistência
+## 2.8 Consistência
 Consistência de código: Refere-se à uniformidade na forma como o código é escrito e organizado.Como convenções de nomenclatura, padrões de codificação e estilos de formatação. Ferramentas como linters e formatadores de código podem ajudar a aplicar e manter essa consistência automaticamente.
 
 Consistência de Dados: No desenvolvimento de software, especialmente em aplicações que interagem com bancos de dados ou outras fontes de dados, a consistência de dados é crucial. Isso significa garantir que os dados estejam corretos, atualizados e sincronizados em diferentes partes da aplicação e entre diferentes sistemas.
