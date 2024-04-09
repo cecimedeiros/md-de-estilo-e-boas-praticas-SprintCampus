@@ -46,9 +46,7 @@ Nosso projeto:
 - Implementa um manejo de erros consistente que não revela detalhes internos da implementação ou informações sensíveis.
 - Segue práticas recomendadas de codificação segura, como validação de entrada, sanitização de dados (remove ou neutraliza qualquer dado que possa ser perigoso ou malicioso) e uso de APIs seguras.
 
-<div style="text-align: justify;">
 Identificar a presença de segurança em um código de projeto é um processo constante que necessita de vigilância e adaptação as novas ameaças. Integrar a segurança desde o início do desenvolvimento e mantê-la como uma preocupação constante ao longo do ciclo de vida do projeto para criar um código seguro.
-</div>
 
 ## 2.5 Testabilidade
 É a capacidade de um sistema ou componente de software ser facilmente testado. Isso significa que o design do software suporta a execução de testes para validar sua funcionalidade, ele suporta ser testado.
