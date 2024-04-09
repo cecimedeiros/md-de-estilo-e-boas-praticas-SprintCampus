@@ -194,5 +194,11 @@ Software consistente é mais fácil de manter e atualizar, pois as alterações 
 ### 2.8.2.4 Melhora a qualidade do produto
 Ao garantir que o software seja desenvolvido de maneira uniforme e de acordo com as melhores práticas, a consistência contribui para a qualidade geral e a estabilidade do produto.
 
+## 2.9 Performance e Otimização
+
+
+## 2.10 Qualidade do Código
+
+
 &nbsp;
 ### Adotar estas práticas não apenas melhorará a qualidade do software desenvolvido, mas também facilitará a colaboração dentro da equipe de desenvolvimento. É crucial que todos os membros da equipe estejam comprometidos em seguir estas diretrizes para alcançar os objetivos do projeto com eficiência e eficácia.
