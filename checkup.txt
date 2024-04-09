@@ -1,5 +1,0 @@
-ok:
-- legibilidade
-- testabilidade
-- Estrutura e formatação
-- 
