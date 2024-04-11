@@ -238,7 +238,7 @@ Ou seja, a qualidade do código é resultado final de todos os aspetos já citad
 - Testes automatizados.
 - Documentação.
 
-&nbsp;
+
 ### Adotar estas práticas não apenas melhorará a qualidade do software desenvolvido, mas também facilitará a colaboração dentro da equipe de desenvolvimento. É crucial que todos os membros da equipe estejam comprometidos em seguir estas diretrizes para alcançar os objetivos do projeto com eficiência e eficácia.
 
 &nbsp;
