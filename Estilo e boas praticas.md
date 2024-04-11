@@ -228,7 +228,16 @@ Otimizar um aspecto do sistema pode afetar negativamente outro. Por exemplo, aum
 O software pode ser executado em uma ampla gama de hardware e redes, cada um com suas próprias características de performance. As otimizações devem considerar essa diversidade.
 
 ## 11. Qualidade do Código
+Na engenharia de software, a qualidade do código é uma métrica que avalia o quão bem o código-fonte de um software atende a certos critérios estabelecidos que geralmente incluem aspectos como legibilidade, manutenibilidade, eficiência, testabilidade, entre outros.
+Ou seja, a qualidade do código é resultado final de todos os aspetos já citados.
 
+### 11.1 Estratégias para melhorar a qualidade do código
+- Revisão de código.
+- Refatoração.
+- Testes automatizados.
+- Documentação.
+
+# Team City
 
 &nbsp;
 ### Adotar estas práticas não apenas melhorará a qualidade do software desenvolvido, mas também facilitará a colaboração dentro da equipe de desenvolvimento. É crucial que todos os membros da equipe estejam comprometidos em seguir estas diretrizes para alcançar os objetivos do projeto com eficiência e eficácia.
