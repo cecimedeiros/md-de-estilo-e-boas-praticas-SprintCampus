@@ -243,4 +243,8 @@ Ou seja, a qualidade do código é resultado final de todos os aspetos já citad
 
 &nbsp;
 # Team City
-.
+## O que é?
+TeamCity é uma plataforma de integração contínua (CI) e entrega contínua (CD) desenvolvida pela JetBrains. A ferramenta automatiza o processo de construção de código (build), teste e deploy, facilitando a detecção precoce de problemas.
+Essa ferramenta é de suma importancia pois automatiza o processo de build e teste, por tal razão utilizaremos ela para testar o peojwto SprintCampus.
+
+## Primeiros passos
