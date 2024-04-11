@@ -217,6 +217,7 @@ Inclui a normalização de dados, indexação eficiente, e a otimização de con
 ### 10.1.6 Minimização de recursos de rede 
 Reduzir o tamanho dos dados transmitidos, utilizar técnicas de compressão e otimizar os protocolos de comunicação para diminuir a latência e o uso de largura de banda.
 
+&nbsp;
 ### 10.2 Desafios na Otimização
 ### 10.2.1 Compromissos 
 Otimizar um aspecto do sistema pode afetar negativamente outro. Por exemplo, aumentar a performance pode resultar em maior consumo de memória. É crucial encontrar um equilíbrio adequado entre diferentes recursos.
@@ -237,6 +238,7 @@ Ou seja, a qualidade do código é resultado final de todos os aspetos já citad
 - Testes automatizados.
 - Documentação.
 
+&nbsp;
 # Team City
 
 &nbsp;
