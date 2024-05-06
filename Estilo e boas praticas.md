@@ -240,11 +240,3 @@ Ou seja, a qualidade do código é resultado final de todos os aspetos já citad
 
 
 ### Adotar estas práticas não apenas melhorará a qualidade do software desenvolvido, mas também facilitará a colaboração dentro da equipe de desenvolvimento. É crucial que todos os membros da equipe estejam comprometidos em seguir estas diretrizes para alcançar os objetivos do projeto com eficiência e eficácia.
-
-&nbsp;
-# Team City
-## O que é?
-TeamCity é uma plataforma de integração contínua (CI) e entrega contínua (CD) desenvolvida pela JetBrains. A ferramenta automatiza o processo de construção de código (build), teste e deploy, facilitando a detecção precoce de problemas.
-Essa ferramenta é de suma importancia pois automatiza o processo de build e teste, por tal razão utilizaremos ela para testar o peojwto SprintCampus.
-
-## Primeiros passos
